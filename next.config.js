@@ -1,6 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-}
 
-module.exports = nextConfig
+  images: {
+    domains: [
+      "upload.wikimedia.org",
+      "commons.wikimedia.org",
+      "www.verizon.com",
+    ],
+  },
+};
+
+module.exports = nextConfig;
